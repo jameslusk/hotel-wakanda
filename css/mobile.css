@@ -15,8 +15,13 @@
   padding: 10;
 }
 
+#showcase {
+  height: 100%;
+}
+
 .showcase-content {
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px
 }
 
 #home-info {
@@ -31,10 +36,40 @@
   width: 100%;
   height: 100%;
   text-align: center;
-  padding: 50px 30px;
+  padding: 50px 20px;
   overflow: hidden;
 }
 
 #features {
   flex-direction: column;
+}
+
+.info-left {
+  width: 100%;
+}
+
+.info-right {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.l-heading {
+  text-align: center;
+  line-height: 1.2;
+}
+
+#testimonials {
+  padding-top: 50px;
+}
+
+.testimonial {
+  display: inline-block;
+}
+
+.testimonial img {
+  float: left;
+}
+
+#contact-info .box {
+  border-bottom: #444 dotted 1px;
 }
