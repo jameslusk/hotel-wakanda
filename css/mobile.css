@@ -1,0 +1,40 @@
+.container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo img {
+  margin-top: 10px;
+}
+
+.logo {
+  padding: 0;
+}
+
+.links li {
+  padding: 10;
+}
+
+.showcase-content {
+  padding-top: 100px;
+}
+
+#home-info {
+  display: block;
+}
+
+.info-img {
+  display: none;
+}
+
+.info-content {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#features {
+  flex-direction: column;
+}
